@@ -1,5 +1,5 @@
 cryptography==36.0.1
-django==3.2.12
+django==4.0.3
 django-environ==0.8.1
 django-filter==21.1
 django-generic-api-permissions==0.2.0
