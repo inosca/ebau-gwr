@@ -1,8 +1,8 @@
 # ebau-gwr
 
-[![Build Status](https://github.com/adfinis-sygroup/ebau-gwr/workflows/Tests/badge.svg)](https://github.com/adfinis-sygroup/ebau-gwr/actions?query=workflow%3ATests)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/adfinis-sygroup/ebau-gwr/blob/main/pyproject.toml#L99)
-[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/adfinis-sygroup/ebau-gwr)
+[![Build Status](https://github.com/inosca/ebau-gwr/workflows/Tests/badge.svg)](https://github.com/inosca/ebau-gwr/actions?query=workflow%3ATests)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/inosca/ebau-gwr/blob/main/pyproject.toml#L99)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/inosca/ebau-gwr)
 
 GWR synchronisation for ebau projects
 
@@ -15,7 +15,7 @@ GWR synchronisation for ebau projects
 - docker
 - docker-compose
 
-After installing and configuring those, download [docker-compose.yml](https://raw.githubusercontent.com/adfinis/ebau-gwr/main/docker-compose.yml) and run the following command:
+After installing and configuring those, download [docker-compose.yml](https://raw.githubusercontent.com/inosca/ebau-gwr/main/docker-compose.yml) and run the following command:
 
 ```bash
 docker-compose up -d

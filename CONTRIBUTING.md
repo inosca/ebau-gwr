@@ -1,7 +1,7 @@
 # Contributing
 
-Contributions to ebau-gwr are very welcome! Best have a look at the open [issues](https://github.com/adfinis/ebau-gwr)
-and open a [GitHub pull request](https://github.com/adfinis/ebau-gwr/compare). See instructions below how to setup development
+Contributions to ebau-gwr are very welcome! Best have a look at the open [issues](https://github.com/inosca/ebau-gwr)
+and open a [GitHub pull request](https://github.com/inosca/ebau-gwr/compare). See instructions below how to setup development
 environment. Before writing any code, best discuss your proposed change in a GitHub issue to see if the proposed change makes sense for the project.
 
 ## Setup development environment
@@ -11,7 +11,7 @@ environment. Before writing any code, best discuss your proposed change in a Git
 To work on ebau-gwr you first need to clone
 
 ```bash
-git clone https://github.com/adfinis/ebau-gwr.git
+git clone https://github.com/inosca/ebau-gwr.git
 cd ebau-gwr
 ```
 

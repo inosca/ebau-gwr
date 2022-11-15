@@ -2,8 +2,8 @@
 name = "ebau-gwr"
 version = "0.6.1"
 description = "GWR synchronisation for ebau projects"
-homepage = "https://github.com/adfinis-sygroup/ebau-gwr"
-repository = "https://github.com/adfinis-sygroup/ebau-gwr"
+homepage = "https://github.com/inosca/ebau-gwr"
+repository = "https://github.com/inosca/ebau-gwr"
 authors = ["Adfinis AG"]
 license = "GPL-3.0-or-later"
 readme = "README.md"
