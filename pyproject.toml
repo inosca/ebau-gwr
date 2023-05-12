@@ -26,7 +26,7 @@ exclude = [
 python = "^3.8"
 cryptography = ">=37.0.2,<39.0.0"
 Django = "^3.2.13"
-django-environ = "^0.9.0"
+django-environ = ">=0.9,<0.11"
 django-filter = "^22.1"
 django-generic-api-permissions = "^0.2.0"
 djangorestframework = "^3.13.1"
