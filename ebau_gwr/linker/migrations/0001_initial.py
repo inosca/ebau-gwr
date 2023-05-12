@@ -7,7 +7,6 @@ import ebau_gwr.linker.models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = []

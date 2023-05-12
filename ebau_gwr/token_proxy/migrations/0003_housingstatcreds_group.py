@@ -9,7 +9,6 @@ def delete_credentials(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ("token_proxy", "0002_housingstatcreds_municipality"),
     ]

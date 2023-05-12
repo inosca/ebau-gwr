@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ("token_proxy", "0003_housingstatcreds_group"),
     ]

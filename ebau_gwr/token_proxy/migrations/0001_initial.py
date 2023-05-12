@@ -8,7 +8,6 @@ import ebau_gwr.token_proxy.models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = []
