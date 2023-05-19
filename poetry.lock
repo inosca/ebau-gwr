@@ -603,19 +603,19 @@ pytz = "*"
 
 [[package]]
 name = "djangorestframework-jsonapi"
-version = "5.0.0"
+version = "6.0.0"
 description = "A Django REST framework API adapter for the JSON:API spec."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "djangorestframework-jsonapi-5.0.0.tar.gz", hash = "sha256:090c568dc99380ead71cc378020b4cd191db2ffce9ab3e9339df80d5d82c8648"},
-    {file = "djangorestframework_jsonapi-5.0.0-py2.py3-none-any.whl", hash = "sha256:f25b0d24a990690e578668b7a7a191a75162f1d9561abd773d12de331cf16673"},
+    {file = "djangorestframework-jsonapi-6.0.0.tar.gz", hash = "sha256:f2465b1b1cd3f372abacc8d99f82835643373f4f3f12965276ad1ccc2d110415"},
+    {file = "djangorestframework_jsonapi-6.0.0-py2.py3-none-any.whl", hash = "sha256:a93b3678bd5e2f070946ca32d7d0bb3734cb5966a80f8a44fa721fcf15cf89ce"},
 ]
 
 [package.dependencies]
-django = ">=2.2,<4.1"
-djangorestframework = ">=3.12,<3.14"
+django = ">=3.2,<4.2"
+djangorestframework = ">=3.13,<3.15"
 inflection = ">=0.5.0"
 
 [package.extras]
@@ -2589,4 +2589,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.1"
-content-hash = "67cf912a94ab6733a4e184014cad628e6efb04c1e71076a161265419e4eba7f2"
+content-hash = "c3260f4092b248d21dfc2e6ad6fb68b505cc8a03f4e33b2b634d9180e79c9cb2"
