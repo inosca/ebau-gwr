@@ -622,13 +622,13 @@ files = [
 
 [[package]]
 name = "elementpath"
-version = "4.1.2"
+version = "4.1.5"
 description = "XPath 1.0/2.0/3.0/3.1 parsers and selectors for ElementTree and lxml"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "elementpath-4.1.2-py3-none-any.whl", hash = "sha256:e8a6c5685e1843c620f426c85ad21ff25cfc7554790116b1046adae7dc252458"},
-    {file = "elementpath-4.1.2.tar.gz", hash = "sha256:0bd0ef5bad559b677ba499e9c7342ca1f2ae2bace90808ee52528ec8d9f6e12b"},
+    {file = "elementpath-4.1.5-py3-none-any.whl", hash = "sha256:2ac1a2fb31eb22bbbf817f8cf6752f844513216263f0e3892c8e79782fe4bb55"},
+    {file = "elementpath-4.1.5.tar.gz", hash = "sha256:c2d6dc524b29ef751ecfc416b0627668119d8812441c555d7471da41d4bacb8d"},
 ]
 
 [package.extras]
@@ -2419,22 +2419,22 @@ files = [
 
 [[package]]
 name = "xmlschema"
-version = "2.2.3"
+version = "2.4.0"
 description = "An XML Schema validator and decoder"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "xmlschema-2.2.3-py3-none-any.whl", hash = "sha256:7d971045eeeb8de183b56bc7530eb8f3d8276072d08017a962c2c34e93bfdd26"},
-    {file = "xmlschema-2.2.3.tar.gz", hash = "sha256:d21ba86af4432720231fb4b40f1205fa75fd718d6856ec3b8118984de31c225b"},
+    {file = "xmlschema-2.4.0-py3-none-any.whl", hash = "sha256:dc87be0caaa61f42649899189aab2fd8e0d567f2cf548433ba7b79278d231a4a"},
+    {file = "xmlschema-2.4.0.tar.gz", hash = "sha256:d74cd0c10866ac609e1ef94a5a69b018ad16e39077bc6393408b40c6babee793"},
 ]
 
 [package.dependencies]
-elementpath = ">=4.0.0,<5.0.0"
+elementpath = ">=4.1.5,<5.0.0"
 
 [package.extras]
-codegen = ["elementpath (>=4.0.0,<5.0.0)", "jinja2"]
-dev = ["Sphinx", "coverage", "elementpath (>=4.0.0,<5.0.0)", "flake8", "jinja2", "lxml", "lxml-stubs", "memory-profiler", "mypy", "sphinx-rtd-theme", "tox"]
-docs = ["Sphinx", "elementpath (>=4.0.0,<5.0.0)", "jinja2", "sphinx-rtd-theme"]
+codegen = ["elementpath (>=4.1.5,<5.0.0)", "jinja2"]
+dev = ["Sphinx", "coverage", "elementpath (>=4.1.5,<5.0.0)", "flake8", "jinja2", "lxml", "lxml-stubs", "memory-profiler", "mypy", "sphinx-rtd-theme", "tox"]
+docs = ["Sphinx", "elementpath (>=4.1.5,<5.0.0)", "jinja2", "sphinx-rtd-theme"]
 
 [[package]]
 name = "zipp"
@@ -2454,4 +2454,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.1"
-content-hash = "ae71303025387d63f046b833acd549149d151777bba0c4e18c622d661365a73f"
+content-hash = "b99424e3f01b15ec4c9f3e0fd3d8a4b1f75a7857900b2bedf0f465615bdcf071"
