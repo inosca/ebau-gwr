@@ -10,6 +10,7 @@ We're using `python-semantic-release` to generate a changelog and suggest the ne
 4. Pull Request with the version bump.
 5. Create tag and release on the merge commit with the changelog
 
+# TODO: Update to reflect breaking changes of python-semantic-release
 
 ```bash
 # Ensure you're on the current master and have all release tags

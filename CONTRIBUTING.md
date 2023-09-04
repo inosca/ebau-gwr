@@ -70,6 +70,8 @@ pip install -r requiements-dev.txt -U
 pre-commit install
 ```
 
+# TODO: Update to reflect breaking changes of python-semantic-release
+
 ## Release
 1. Pull the up to date `main` branch locally
 
