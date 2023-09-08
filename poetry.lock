@@ -887,15 +887,15 @@ files = [
 
 [package.dependencies]
 arrow = [
-    {version = ">=1", optional = true, markers = "extra != \"trusted-deps\""},
+    {version = ">=1"},
     {version = "1.2.3", optional = true, markers = "extra == \"trusted-deps\""},
 ]
 click = [
-    {version = ">=8", optional = true, markers = "extra != \"trusted-deps\""},
+    {version = ">=8"},
     {version = "8.1.3", optional = true, markers = "extra == \"trusted-deps\""},
 ]
 sh = [
-    {version = ">=1.13.0", optional = true, markers = "extra != \"trusted-deps\" and sys_platform != \"win32\""},
+    {version = ">=1.13.0", markers = "sys_platform != \"win32\""},
     {version = "1.14.3", optional = true, markers = "sys_platform != \"win32\" and extra == \"trusted-deps\""},
 ]
 
@@ -1462,13 +1462,13 @@ testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
 name = "pre-commit"
-version = "3.3.3"
+version = "3.4.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pre_commit-3.3.3-py2.py3-none-any.whl", hash = "sha256:10badb65d6a38caff29703362271d7dca483d01da88f9d7e05d0b97171c136cb"},
-    {file = "pre_commit-3.3.3.tar.gz", hash = "sha256:a2256f489cd913d575c145132ae196fe335da32d91a8294b7afe6622335dd023"},
+    {file = "pre_commit-3.4.0-py2.py3-none-any.whl", hash = "sha256:96d529a951f8b677f730a7212442027e8ba53f9b04d217c4c67dc56c393ad945"},
+    {file = "pre_commit-3.4.0.tar.gz", hash = "sha256:6bbd5129a64cad4c0dfaeeb12cd8f7ea7e15b77028d985341478c8af3c759522"},
 ]
 
 [package.dependencies]
@@ -2458,4 +2458,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.1"
-content-hash = "01bfc8dd02b1b5920c9fd25c79feee429c7005daf5922be35424202eef44e398"
+content-hash = "a3f65b218238d3a4389bceb0bb00f77aeacefb53baaaa862fca248cae4e19960"
