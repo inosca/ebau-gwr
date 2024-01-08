@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.6.3 (2024-01-08)
+
+### Fix
+* **deps:** Downgrade python-semantic-release to v7.33.3 ([`803b619`](https://github.com/inosca/ebau-gwr/commit/803b619654e9b858d173e7200e9b87f40861289e))
+* **deps:** Update dependencies ([`0bd1823`](https://github.com/inosca/ebau-gwr/commit/0bd18236164af1747a1589809028de1f9786e1bb))
+
 ## v0.6.2 (2023-05-12)
 
 ### Fix
