@@ -18,7 +18,7 @@ GWR synchronisation for ebau projects
 After installing and configuring those, download [docker-compose.yml](https://raw.githubusercontent.com/inosca/ebau-gwr/main/docker-compose.yml) and run the following command:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 You can now access the api at [http://localhost:8000/api/v1/](http://localhost:8000/api/v1/).
