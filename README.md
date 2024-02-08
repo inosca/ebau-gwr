@@ -18,6 +18,8 @@ GWR synchronisation for ebau projects
 After installing and configuring those, download [docker-compose.yml](https://raw.githubusercontent.com/inosca/ebau-gwr/main/docker-compose.yml) and run the following command:
 
 ```bash
+echo UID=$UID > .env
+
 docker compose up -d
 ```
 
