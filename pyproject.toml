@@ -37,7 +37,7 @@ requests = "^2.31.0"
 uWSGI = "^2.0.23"
 
 [tool.poetry.group.dev.dependencies]
-black = "23.12.1"
+black = "24.2.0"
 django-extensions = "3.2.3"
 factory-boy = "3.3.0"
 flake8 = "7.0.0"
