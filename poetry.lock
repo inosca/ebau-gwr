@@ -560,13 +560,13 @@ Django = ">=3.2"
 
 [[package]]
 name = "django-generic-api-permissions"
-version = "0.4.1"
+version = "0.4.6"
 description = "Generic API permissions and visibilities for Django"
 optional = false
-python-versions = ">=3.8.1,<3.13"
+python-versions = ">=3.8.1"
 files = [
-    {file = "django_generic_api_permissions-0.4.1-py3-none-any.whl", hash = "sha256:2090146fddb2254648eed3144559942703274c4471f816246df7256073dec20e"},
-    {file = "django_generic_api_permissions-0.4.1.tar.gz", hash = "sha256:21945d77d377cded55ec6abc5085c697fbe90e55d64d8040adf98386b44b1677"},
+    {file = "django_generic_api_permissions-0.4.6-py3-none-any.whl", hash = "sha256:f1a6bcdc7d0f007292cc92162fc3dd294a976aa1db1cd8b9c31afc82cb684e5d"},
+    {file = "django_generic_api_permissions-0.4.6.tar.gz", hash = "sha256:fe1626608e2c5e2bc9bb5ca8ed62a428392313ef6aa161664bb853e0a7af734b"},
 ]
 
 [package.dependencies]
