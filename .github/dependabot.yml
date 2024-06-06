@@ -16,9 +16,12 @@ updates:
       timezone: "Europe/Zurich"
     open-pull-requests-limit: 10
     ignore:
-      - dependency-name: django
+      - dependency-name: python-semantic-release
         versions:
-          - ">=4"
+          - ">=8"
+      - dependency-name: django 
+        versions:
+          - ">=5"
   - package-ecosystem: docker
     directory: "/"
     schedule:
