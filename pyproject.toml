@@ -62,18 +62,14 @@ pytest-randomly = "3.15.0"
 python-semantic-release = "7.33.3"
 requests-mock = "1.12.1"
 syrupy = "4.6.1"
+ruff = "^0.5.1"
 
-[tool.isort]
-skip = [
-  "migrations",
-  "snapshots",
-]
-known_first_party = "ebau_gwr"
-multi_line_output = 3
-include_trailing_comma = true
-force_grid_wrap = 0
-combine_as_imports = true
-line_length = 88
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+known-first-party = ["ebau_gwr"]
 
 [tool.pytest.ini_options]
 addopts = "--reuse-db --randomly-seed=1521188766 --randomly-dont-reorganize"
