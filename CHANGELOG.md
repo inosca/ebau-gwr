@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.7.0 (2024-07-09)
+### Breaking
+* Django has been updated to v4. If this package is consumed as django app, the host app needs to update django as well. ([`401f7d3`](https://github.com/inosca/ebau-gwr/commit/401f7d364e9068c3b22d79fa4cbc174e2f146fb5))
+
+### Fix
+* **deps:** Upgrade more dependencies ([`eab6e39`](https://github.com/inosca/ebau-gwr/commit/eab6e39e25bfc7e138a8bcc3f475c6fbecc1b82c))
+* Compatibility with psycopg>3.0.17 ([`750e145`](https://github.com/inosca/ebau-gwr/commit/750e145f4adb6e4a4344d0862701d1ed4b762cb2))
+
+### Documentation
+* Add UID hint ([`6e408ac`](https://github.com/inosca/ebau-gwr/commit/6e408acd025341952d59a680faa02cec92356409))
+
 ## v0.6.3 (2024-01-08)
 
 ### Fix
