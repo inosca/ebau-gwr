@@ -23,11 +23,11 @@ exclude = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.10.0,<4"
 cryptography = ">=37.0.2,<43.0.0"
-Django = "^4.2"
+Django = "^4.2.13"
 django-environ = ">=0.10,<0.12"
-django-filter = "^23.5"
+django-filter = ">=23.5,<25"
 django-generic-api-permissions = "^0.4.1"
 djangorestframework = "^3.14.0"
 djangorestframework-jsonapi = ">=5,<7"
@@ -61,7 +61,7 @@ pytest-mock = "3.14.0"
 pytest-randomly = "3.15.0"
 python-semantic-release = "7.33.3"
 requests-mock = "1.12.1"
-snapshottest = "0.6.0"
+syrupy = "4.6.1"
 
 [tool.isort]
 skip = [
