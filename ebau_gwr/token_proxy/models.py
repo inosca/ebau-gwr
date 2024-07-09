@@ -21,7 +21,9 @@ class FernetStringField(models.BinaryField):
     def from_db_value(self, value, *_):
         if value is None:
             return value
-        return self.decrypt(value.tobytes())
+        if hasattr(value, "tobytes"):
+            value = value.tobytes()
+        return self.decrypt(value)
 
     def get_prep_value(self, value):
         value = super().get_prep_value(value)
