@@ -36,9 +36,9 @@ etc.
 
 ```bash
 # linting
-flake8
+poetry run ruff check .
 # format code
-black .
+poetry run ruff format .
 # running tests
 pytest
 # create migrations

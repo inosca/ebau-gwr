@@ -39,11 +39,11 @@ jobs:
       - name: Run gitlint
         run: poetry run gitlint --contrib contrib-title-conventional-commits
 
-      - name: Run black
-        run: poetry run black --check .
+      - name: Run ruff
+        run: poetry run ruff check .
 
-      - name: Run flake8
-        run: poetry run flake8 --exclude .venv
+      - name: Run ruff format
+        run: poetry run ruff format --check .
 
   docker-tests:
     name: Docker tests

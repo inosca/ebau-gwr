@@ -18,7 +18,7 @@ test: ## Test the backend
 
 .PHONY: lint
 lint: ## Lint the backend
-	@docker compose run gwr sh -c "poetry run black --check . && poetry run flake8"
+	@docker compose run gwr sh -c "poetry run ruff check . && poetry run ruff format --check ."
 
 .PHONY: bash
 bash: ## Shell into the backend
