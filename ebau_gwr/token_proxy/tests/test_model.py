@@ -47,4 +47,4 @@ def test_fernet_password_field(db, settings, pw):
     if pw is None:
         assert row[0] is None
         return
-    assert f.decrypt(row[0].tobytes()).decode() == pw
+    assert f.decrypt(row[0]).decode() == pw
