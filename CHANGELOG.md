@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.7.0 (2024-08-09)
+### Fix
+* **deps:** Update dependencies ([`6bec530`](https://github.com/inosca/ebau-gwr/commit/6bec5304143045c92a4a4026dd9d17866c77a45d))
+
 ## v0.7.0 (2024-07-09)
 ### Breaking
 * Django has been updated to v4. If this package is consumed as django app, the host app needs to update django as well. ([`401f7d3`](https://github.com/inosca/ebau-gwr/commit/401f7d364e9068c3b22d79fa4cbc174e2f146fb5))
