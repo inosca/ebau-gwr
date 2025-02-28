@@ -1,6 +1,13 @@
 # Changelog
 
-## v0.7.0 (2024-08-09)
+## v0.7.2 (2025-02-28)
+
+### Fix
+* **deps:** Update dependencies ([`4dbf1a8`](https://github.com/inosca/ebau-gwr/commit/4dbf1a86fb2edb469da4534686be296a1056218f))
+
+
+## v0.7.1 (2024-08-09)
+
 ### Fix
 * **deps:** Update dependencies ([`6bec530`](https://github.com/inosca/ebau-gwr/commit/6bec5304143045c92a4a4026dd9d17866c77a45d))
 
