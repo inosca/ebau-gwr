@@ -1840,13 +1840,13 @@ tests = ["cython", "littleutils", "pygments", "pytest", "typeguard"]
 
 [[package]]
 name = "syrupy"
-version = "4.6.1"
+version = "4.8.2"
 description = "Pytest Snapshot Test Utility"
 optional = false
-python-versions = ">=3.8.1,<4"
+python-versions = ">=3.8.1"
 files = [
-    {file = "syrupy-4.6.1-py3-none-any.whl", hash = "sha256:203e52f9cb9fa749cf683f29bd68f02c16c3bc7e7e5fe8f2fc59bdfe488ce133"},
-    {file = "syrupy-4.6.1.tar.gz", hash = "sha256:37a835c9ce7857eeef86d62145885e10b3cb9615bc6abeb4ce404b3f18e1bb36"},
+    {file = "syrupy-4.8.2-py3-none-any.whl", hash = "sha256:1fee874d422cfb1342aa746a65936d6500178beeb6fe26cb3a970c626fbe6058"},
+    {file = "syrupy-4.8.2.tar.gz", hash = "sha256:8418748be9cc050bf156d2e6c551dbc1768d591d36652e945a52ab3b0303a899"},
 ]
 
 [package.dependencies]
@@ -2096,4 +2096,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<4"
-content-hash = "06a831f984dcb34d8ff4b9cd3270f99f20058c4304faf2a58fd5dc4a2019055c"
+content-hash = "84e2d66092da510c5f1a384e9a06adef5519782b1dbbee0c0fb28de761e24cf7"
