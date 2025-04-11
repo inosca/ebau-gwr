@@ -37,7 +37,7 @@ requests = "^2.31.0"
 uWSGI = "^2.0.23"
 
 [tool.poetry.group.dev.dependencies]
-django-extensions = "3.2.3"
+django-extensions = "4.1"
 factory-boy = "3.3.3"
 gitlint = "0.19.1"
 ipython = "8.34.0"
