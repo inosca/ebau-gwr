@@ -32,7 +32,8 @@ django-generic-api-permissions = "^1.0.0"
 djangorestframework = "^3.14.0"
 djangorestframework-jsonapi = ">=5,<9"
 mozilla-django-oidc = ">=2,<5"
-psycopg = "^3.2.1"
+psycopg = { extras = ["binary"], version = "^3.2.1" }
+psycopg-binary = "^3.2.1"
 requests = "^2.31.0"
 uWSGI = "^2.0.23"
 
