@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.8.0 (2025-09-02)
+
+### Feature
+
+* **deps:** Update dependencies ([`63c245a`](https://github.com/inosca/ebau-gwr/commit/63c245afe92632a1d44f65ee602f0993cc7fd663))
+
+### Fix
+
+* **deps:** Use psycopg binary package ([`b18d511`](https://github.com/inosca/ebau-gwr/commit/b18d51112410d5ea7e6cb636f9a8b42f2ade8342))
+
+### Breaking
+
+* This drops support for Python versions 3.10 and 3.11. ([`63c245a`](https://github.com/inosca/ebau-gwr/commit/63c245afe92632a1d44f65ee602f0993cc7fd663))
+
 ## v0.7.4 (2025-05-27)
 
 ### Fix
