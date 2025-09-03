@@ -537,14 +537,14 @@ Django = ">=4.2"
 
 [[package]]
 name = "django-generic-api-permissions"
-version = "1.0.1"
+version = "2.0.0"
 description = "Generic API permissions and visibilities for Django"
 optional = false
-python-versions = ">=3.8.1"
+python-versions = "<4,>=3.12"
 groups = ["main"]
 files = [
-    {file = "django_generic_api_permissions-1.0.1-py3-none-any.whl", hash = "sha256:53ae7207b3313835ec60c58fbf4dfcb2ec742e7a327d3c76ddfd2b136365bb05"},
-    {file = "django_generic_api_permissions-1.0.1.tar.gz", hash = "sha256:4428d2389741e02fad33c210ed6623999157658ec04c842a9bb5dcca8f8e9bce"},
+    {file = "django_generic_api_permissions-2.0.0-py3-none-any.whl", hash = "sha256:22b8948393d9b55c4f0e12088563d99604344358e6f615da0371c97e3ae4c623"},
+    {file = "django_generic_api_permissions-2.0.0.tar.gz", hash = "sha256:455c49911da36476753af9c19f57519ae26b8ffd64428c57c2d34c517cc2f5c6"},
 ]
 
 [package.dependencies]
@@ -1066,14 +1066,14 @@ traitlets = "*"
 
 [[package]]
 name = "more-itertools"
-version = "10.7.0"
+version = "10.8.0"
 description = "More routines for operating on iterables, beyond itertools"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "more_itertools-10.7.0-py3-none-any.whl", hash = "sha256:d43980384673cb07d2f7d2d918c616b30c659c089ee23953f601d6609c67510e"},
-    {file = "more_itertools-10.7.0.tar.gz", hash = "sha256:9fddd5403be01a94b204faadcff459ec3568cf110265d3c54323e1e866ad29d3"},
+    {file = "more_itertools-10.8.0-py3-none-any.whl", hash = "sha256:52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b"},
+    {file = "more_itertools-10.8.0.tar.gz", hash = "sha256:f638ddf8a1a0d134181275fb5d58b086ead7c6a72429ad725c67503f13ba30bd"},
 ]
 
 [[package]]
@@ -2198,4 +2198,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4"
-content-hash = "9a885406adb9a943f13dc1e421cea27ce383e41302cad692353b6465d5b83811"
+content-hash = "f3f36b88a5e1718a0a23c6fcfcd757325da2e6c47ff257ce288971f6199d2403"
