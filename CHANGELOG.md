@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.1 (2025-09-03)
+
+### Fix
+
+* **deps:** Update dgap ([`9084fb8`](https://github.com/inosca/ebau-gwr/commit/9084fb869656d75e66499b97ce1d7eb7337d321b))
+
 ## v0.8.0 (2025-09-02)
 
 ### Feature
