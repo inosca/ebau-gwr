@@ -24,7 +24,7 @@ exclude = [
 
 [tool.poetry.dependencies]
 python = ">=3.12,<4"
-cryptography = ">=37.0.2,<46"
+cryptography = ">=37.0.2,<47"
 Django = ">=4.2,<5.3"
 django-environ = ">=0.10,<0.13"
 django-filter = ">=23.5,<26"
