@@ -1,6 +1,6 @@
 import uuid
 
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet, InvalidToken
 from django.conf import settings
 from django.db import models
 
@@ -16,7 +16,10 @@ class FernetStringField(models.BinaryField):
         return self.fernet_key.encrypt(value.encode("utf-8"))
 
     def decrypt(self, value):
-        return self.fernet_key.decrypt(value).decode()
+        try:
+            return self.fernet_key.decrypt(value).decode()
+        except InvalidToken:
+            return None
 
     def from_db_value(self, value, *_):
         if value is None:

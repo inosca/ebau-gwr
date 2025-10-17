@@ -13,6 +13,17 @@ class TokenProxySerializer(serializers.ModelSerializer):
     token = serializers.SerializerMethodField()
 
     def get_token(self, obj):
+        # No password or invalid password stored
+        if not obj.password:
+            raise ValidationError(
+                {
+                    400: {
+                        "source": "internal",
+                        "reason": f'Stored credentials are invalid for "{obj.owner}"',
+                    }
+                }
+            )
+
         client = HousingStatClient()
         token_resp = client.get_token(username=obj.username, password=obj.password)
         if token_resp["success"] is True:

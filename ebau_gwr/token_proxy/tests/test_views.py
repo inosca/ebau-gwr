@@ -1,6 +1,7 @@
 import json
 
 import pytest
+from cryptography.fernet import Fernet
 from django.urls import reverse
 from rest_framework import status
 
@@ -171,3 +172,45 @@ def test_token_proxy_remove_creds(db, settings, admin_client, requests_mock):
 
     resp = admin_client.post(url, content_type="application/json", HTTP_X_CAMAC_GROUP=1)
     assert resp.status_code == status.HTTP_404_NOT_FOUND
+
+
+def test_token_proxy_invalid_token(
+    db, settings, admin_client, admin_user, requests_mock
+):
+    requests_mock.post(
+        f"{settings.GWR_HOUSING_STAT_BASE_URI}/tokenWS/",
+        json={"success": True, "token": "eyIMATOKEN"},
+    )
+    url = reverse("housingstattoken-list")
+    data = {
+        "username": "test_GWR",
+        "group": 1,
+        "password": "secret-pw",
+        "municipality": 1234,
+    }
+    headers = {"HTTP_X_CAMAC_GROUP": data.get("group")}
+    resp = admin_client.post(
+        url, data=json.dumps(data), content_type="application/json", **headers
+    )
+    assert resp.status_code == status.HTTP_201_CREATED
+
+    # Change fernet key, invalidating the stored credentials
+    settings.GWR_FERNET_KEY = Fernet.generate_key().decode()
+
+    resp = admin_client.post(url, data=None, content_type="application/json", **headers)
+    assert resp.status_code == status.HTTP_400_BAD_REQUEST
+    assert resp.json() == {
+        "400": {
+            "reason": f'Stored credentials are invalid for "{admin_user.username}"',
+            "source": "internal",
+        }
+    }
+
+    # Can overwrite existing invalid credentials with valid credentials
+    resp = admin_client.post(
+        url, data=json.dumps(data), content_type="application/json", **headers
+    )
+    assert resp.status_code == status.HTTP_201_CREATED
+
+    resp = admin_client.post(url, data=None, content_type="application/json", **headers)
+    assert resp.status_code == status.HTTP_201_CREATED
