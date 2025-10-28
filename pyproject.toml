@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ebau-gwr"
-version = "0.8.1"
+version = "0.8.2"
 description = "GWR synchronisation for ebau projects"
 homepage = "https://github.com/inosca/ebau-gwr"
 repository = "https://github.com/inosca/ebau-gwr"
