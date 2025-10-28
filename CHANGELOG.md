@@ -4,7 +4,7 @@
 
 ### Fix
 
-* **token-proxy:** Handle invalid token exceptions in stored credentials ([`7febdf6`](https://github.com/luytena/ebau-gwr/commit/7febdf6edfd71a9d145c144fe231a2dff5b8418b))
+* **token-proxy:** Handle invalid token exceptions in stored credentials ([`7febdf6`](https://github.com/inosca/ebau-gwr/commit/7febdf6edfd71a9d145c144fe231a2dff5b8418b))
 
 ## v0.8.1 (2025-09-03)
 
