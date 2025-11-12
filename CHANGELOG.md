@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.3 (2025-11-12)
+
+### Fix
+
+* **deps:** Allow DGAP v3 ([`95c4695`](https://github.com/inosca/ebau-gwr/commit/95c46958c772f24c0cf726f34ccce5138cf9b1b6))
+
 ## v0.8.2 (2025-10-28)
 
 ### Fix
