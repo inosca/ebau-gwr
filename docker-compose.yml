@@ -7,7 +7,7 @@ services:
       # https://hub.docker.com/_/postgres
       # - POSTGRES_PASSWORD=
     volumes:
-      - dbdata:/var/lib/postgresql/data
+      - dbdata:/var/lib/postgresql
   gwr:
     ports:
       - "8000:8000"
