@@ -7,6 +7,8 @@ updates:
       day: friday
       time: "12:00"
       timezone: "Europe/Zurich"
+    cooldown:
+      default-days: 7
   - package-ecosystem: pip
     directory: "/"
     schedule:
@@ -22,6 +24,8 @@ updates:
       - dependency-name: django 
         versions:
           - ">=6"
+    cooldown:
+      default-days: 7
   - package-ecosystem: docker
     directory: "/"
     schedule:
@@ -30,3 +34,5 @@ updates:
       time: "12:00"
       timezone: "Europe/Zurich"
     open-pull-requests-limit: 10
+    cooldown:
+      default-days: 7
