@@ -54,4 +54,4 @@ def test_gwr_link_filter(db, gwr_link_factory, field, expected_amount, admin_cli
     assert resp.status_code == HTTP_200_OK
     result = resp.json()
     assert len(result["data"]) == expected_amount
-    assert all([i["attributes"][field] == "foo" for i in result["data"]])
+    assert all(i["attributes"][field] == "foo" for i in result["data"])

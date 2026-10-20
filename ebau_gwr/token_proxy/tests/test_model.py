@@ -40,7 +40,7 @@ def test_fernet_password_field(db, settings, pw):
     assert creds.password == pw
 
     with connection.cursor() as cursor:
-        cursor.execute('SELECT "password", "id" FROM %s' % f"token_proxy_{model_name}")
+        cursor.execute(f'SELECT "password", "id" FROM token_proxy_{model_name}')
         row = cursor.fetchone()
 
     f = Fernet(settings.GWR_FERNET_KEY)
