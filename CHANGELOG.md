@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.8.4 (2026-10-20)
+
+### Fix
+
+* **deps:** Update dependencies ([`df1311a`](https://github.com/inosca/ebau-gwr/commit/df1311a3349be331017a1c6f85f6860e8ec573e7))
+
 ## v0.8.3 (2025-11-12)
 
 ### Fix
