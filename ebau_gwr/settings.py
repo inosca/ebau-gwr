@@ -164,8 +164,8 @@ def parse_admins(admins):
         match = re.search(r"(.+) \<(.+@.+)\>", admin)
         if not match:  # pragma: no cover
             raise environ.ImproperlyConfigured(
-                'In ADMINS admin "{0}" is not in correct '
-                '"Firstname Lastname <email@example.com>"'.format(admin)
+                f'In ADMINS admin "{admin}" is not in correct '
+                '"Firstname Lastname <email@example.com>"'
             )
         result.append((match.group(1), match.group(2)))
     return result
