@@ -30,7 +30,7 @@ django-environ = ">=0.10,<0.15"
 django-filter = ">=23.5,<27"
 django-generic-api-permissions = ">=1.0.0,<4"
 djangorestframework = "^3.14.0"
-djangorestframework-jsonapi = ">=5,<9"
+djangorestframework-jsonapi = ">=5,<10"
 mozilla-django-oidc = ">=2,<6"
 psycopg = { extras = ["binary"], version = "^3.2.1" }
 psycopg-binary = "^3.2.1"
