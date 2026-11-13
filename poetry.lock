@@ -1752,14 +1752,14 @@ docs = ["sphinx", "sphinx-rtd-theme"]
 
 [[package]]
 name = "pytest-env"
-version = "1.8.1"
-description = "pytest plugin that allows you to add environment variables."
+version = "1.8.5"
+description = "Set environment variables for pytest sessions."
 optional = false
 python-versions = ">=3.11"
 groups = ["dev"]
 files = [
-    {file = "pytest_env-1.8.1-py3-none-any.whl", hash = "sha256:753d3f0c646dd43f292a6d664099d1cafce39dda08217510ec5e9b6a681628a0"},
-    {file = "pytest_env-1.8.1.tar.gz", hash = "sha256:996f86ad78b6c7b5335e0d493f9e9ecd3e421174e056742856f91da439e1cbd9"},
+    {file = "pytest_env-1.8.5-py3-none-any.whl", hash = "sha256:0e3b3a4c84d3303904005e3b62eab51e197c36735f5862bed229c0ac6f1fd739"},
+    {file = "pytest_env-1.8.5.tar.gz", hash = "sha256:992c37efdc1bde2f0783975080ac4cdcea85f36df9d6fe3a835edd01a7e06584"},
 ]
 
 [package.dependencies]
@@ -2469,4 +2469,4 @@ type = ["pytest-mypy (>=1.0.1) ; platform_python_implementation != \"PyPy\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4"
-content-hash = "f3f4ba1d7d4c583d0e0b5878a20892a609605fd4c7c81eb3fbba9f9caa02e8e2"
+content-hash = "95b49afbb58ae80fbdcbba10ffe82a4e7022bcdab3a33661424611f547e0dd8d"
